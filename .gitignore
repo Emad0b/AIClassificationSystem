@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+*.pt
+*.pth
+*.onnx
+
+# Node
+node_modules/
+frontend/dist/
+
+# Models and datasets (download separately)
+backend/models/*.pt
+ml/data/
+data/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Kaggle / local caches
+.kaggle/
+*.cache
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Build artifacts
+*.zip
+*.tar.gz
