@@ -4,7 +4,6 @@ python-multipart>=0.0.20
 pillow>=11.0.0
 torch>=2.9.0
 torchvision>=0.24.0
-torchaudio>=2.9.0
 numpy>=2.0.0
 librosa>=0.10.2
 boto3>=1.36.0

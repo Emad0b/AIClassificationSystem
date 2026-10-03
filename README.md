@@ -1,6 +1,12 @@
 # Real-Time Multimodal AI Classification System
 
-A production-style **image + audio** classification platform built with FastAPI, PyTorch, React, and Docker. Designed as a portfolio project for ML engineering and cloud roles.
+A portfolio **image + audio** classification platform built with FastAPI, PyTorch, React, and Docker. The image pipeline now supports reproducible splits, tracked experiments, held-out evaluation, versioned artifacts, readiness checks, output-shift monitoring, and gated promotion/rollback. Audio remains a legacy feature.
+
+Start with the [ML engineering workflow](docs/ML_ENGINEERING.md) for training,
+evaluation, serving, benchmarking, and release commands. No dataset accuracy or
+live cloud deployment is claimed without measured evidence. A [recorded local
+experiment](reports/local-experiment/README.md) includes the actual subset results,
+validation comparison, held-out metrics, environment, and localhost benchmark.
 
 ## Features
 
@@ -56,9 +62,10 @@ cp backend/.env.example backend/.env
 
 ```bash
 pip install -r ml/requirements.txt kagglehub
-python ml/download_datasets.py
-python ml/train_image_model.py --data-dir ml/data/image --epochs 5
-python ml/train_audio_model.py --data-dir ml/data/audio --epochs 10
+python ml/download_datasets.py --image-only
+python ml/splits.py --data-dir ml/data/image --output ml/data/image-split.json
+python ml/train_image_model.py --run-dir artifacts/linear-probe-v1 --epochs 5
+python ml/evaluate_image.py --run-dir artifacts/linear-probe-v1
 ```
 
 **Datasets used:**
@@ -68,7 +75,11 @@ python ml/train_audio_model.py --data-dir ml/data/audio --epochs 10
 | Image | [EuroSAT](https://www.kaggle.com/datasets/apollo2506/eurosat-dataset) | urban, forest, water |
 | Audio | [UrbanSound8K](https://www.kaggle.com/datasets/chrisfilo/urbansound8k) | siren, traffic, construction |
 
-Without trained weights, the image API falls back to ImageNet-pretrained ResNet50 (demo mode). Audio requires training for meaningful predictions.
+Missing weights return 503. Image serving requires both the trained checkpoint
+and matching JSON metadata. Set `IMAGE_MODEL_PATH` to the chosen run's `model.pt`
+(use an absolute path), or promote it using the workflow above. Existing image
+weights without metadata must be retrained with the new pipeline. Audio requires
+training and the exact training label order in `AUDIO_LABELS` for meaningful predictions.
 
 ### 3. Run the API
 
@@ -114,7 +125,9 @@ docker run -p 8000:8000 -v $(pwd)/backend/models:/app/backend/models ai-classifi
 
 ## AWS deployment
 
-See [aws/deployment.md](aws/deployment.md) for EC2, S3, and optional API Gateway setup.
+See [aws/deployment.md](aws/deployment.md) for EC2, S3, and optional API Gateway setup,
+and [the evaluated artifact workflow](docs/ML_ENGINEERING.md) for readiness and
+model promotion. Both `model.pt` and `model.json` are required for image serving.
 
 ## What is not included in this repo
 

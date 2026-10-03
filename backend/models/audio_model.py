@@ -38,7 +38,9 @@ def build_audio_model(num_classes: int) -> nn.Module:
     return AudioSpectrogramCNN(num_classes=num_classes)
 
 
-def load_audio_model(model_path: Path, num_classes: int, device: torch.device) -> nn.Module:
+def load_audio_model(model_path: Path, num_classes: int, device: torch.device) -> nn.Module | None:
+    if not model_path.exists():
+        return None
     model = build_audio_model(num_classes=num_classes)
     if model_path.exists():
         state_dict = torch.load(model_path, map_location=device, weights_only=True)

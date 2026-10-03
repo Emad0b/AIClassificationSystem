@@ -1,0 +1,12 @@
+{
+  "requests": 100,
+  "warmup": 5,
+  "model_versions": [
+    "eurosat-subset-probe-v1"
+  ],
+  "p50_ms": 60.153999977046624,
+  "p95_ms": 70.52060001296923,
+  "mean_ms": 59.53818199865054,
+  "sequential_requests_per_second": 16.795944491934023,
+  "scope": "sequential requests, one image; not a concurrent load test"
+}

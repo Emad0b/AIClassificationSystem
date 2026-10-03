@@ -1,0 +1,1813 @@
+{
+  "schema_version": 1,
+  "seed": 42,
+  "max_per_class": 100,
+  "classes": [
+    "forest",
+    "urban",
+    "water"
+  ],
+  "duplicates_removed": 0,
+  "records": [
+    {
+      "path": "forest/eurosat_forest_Forest_1017.jpg",
+      "sha256": "066bfd18eb60b88340fdebf459ae9a9ddb61935287fe3feaf36f85a56cc0a0ca",
+      "label": "forest",
+      "split": "train"
+    },
+    {
+      "path": "forest/eurosat_forest_Forest_1034.jpg",
+      "sha256": "e94dc71bb8a68ddeba4619e7f4a9300d97758e915f57858547b2e85c98284315",
+      "label": "forest",
+      "split": "train"
+    },
+    {
+      "path": "forest/eurosat_forest_Forest_1039.jpg",
+      "sha256": "f2bd9db1aff9f79417631c5b12458c76069886825ceb9fc110b663b44d20b793",
+      "label": "forest",
+      "split": "train"
+    },
+    {
+      "path": "forest/eurosat_forest_Forest_1077.jpg",
+      "sha256": "ee4a176d72b28ec5b78867d08cd6d3cc80d71cf510f36ebaa408927d0b95cdc4",
+      "label": "forest",
+      "split": "train"
+    },
+    {
+      "path": "forest/eurosat_forest_Forest_1092.jpg",
+      "sha256": "54a53222ae3c7251ed3b8d1f0a02d8ef1cfb1e89f389c597c6251a8db7ce3643",
+      "label": "forest",
+      "split": "train"
+    },
+    {
+      "path": "forest/eurosat_forest_Forest_1142.jpg",
+      "sha256": "2e5198f0e6644e25a06770cb5a1d19242f03bfd8c6d5b3ad45ca7a3202a45ccc",
+      "label": "forest",
+      "split": "train"
+    },
+    {
+      "path": "forest/eurosat_forest_Forest_1179.jpg",
+      "sha256": "3ac9ec4436ab401eaffaa9ba1b3ad22353a7feb0dfaa817ecbb7b0c911bd4931",
+      "label": "forest",
+      "split": "train"
+    },
+    {
+      "path": "forest/eurosat_forest_Forest_1217.jpg",
+      "sha256": "8a3f97dc848a48d9c77ea47d6e6b5194b0ce8970871e160f949d1c19dc67ba90",
+      "label": "forest",
+      "split": "train"
+    },
+    {
+      "path": "forest/eurosat_forest_Forest_1224.jpg",
+      "sha256": "b671564f7dd58da3994d19d8fd340e56f4731581ac6c462d204c9e427e7c215d",
+      "label": "forest",
+      "split": "train"
+    },
+    {
+      "path": "forest/eurosat_forest_Forest_1257.jpg",
+      "sha256": "e04a458bee24d3d2b44b08aefc1fba314e375fa521e4237d046dc8c78f8985d6",
+      "label": "forest",
+      "split": "test"
+    },
+    {
+      "path": "forest/eurosat_forest_Forest_1327.jpg",
+      "sha256": "7198ac0b50abb493830e4002a4280c2488a11fbc4403ec43ba9ad9d6d2cf654f",
+      "label": "forest",
+      "split": "train"
+    },
+    {
+      "path": "forest/eurosat_forest_Forest_1328.jpg",
+      "sha256": "43d163c967cb1fb7cda0e0dc33a4f8fe3fb23fd95d5f0dfe21bfc357faf87041",
+      "label": "forest",
+      "split": "train"
+    },
+    {
+      "path": "forest/eurosat_forest_Forest_1344.jpg",
+      "sha256": "13bbbdcca140f8dd6045a3d4b6f0f34359b2e6ee9d7f2bf5c34041f2ad7006cb",
+      "label": "forest",
+      "split": "train"
+    },
+    {
+      "path": "forest/eurosat_forest_Forest_1359.jpg",
+      "sha256": "9eec0e4cd3cedd757766221cfc6b56428933906d17e6c441a3ebb821a6c6eefb",
+      "label": "forest",
+      "split": "train"
+    },
+    {
+      "path": "forest/eurosat_forest_Forest_1386.jpg",
+      "sha256": "4a14b59f45a915aa6d653e0c08a4a68ff186a3fba797f85003291fee181598e7",
+      "label": "forest",
+      "split": "train"
+    },
+    {
+      "path": "forest/eurosat_forest_Forest_1478.jpg",
+      "sha256": "1ab018a3cc03f3748ed31a7dbefa7bf852b9f22efb71b66be7bfaf8dd1e43c4f",
+      "label": "forest",
+      "split": "validation"
+    },
+    {
+      "path": "forest/eurosat_forest_Forest_148.jpg",
+      "sha256": "d311577e693f9cb6a08bfcb6269f3043af7702ecf52c33d6c822ac2bdf9ab7b3",
+      "label": "forest",
+      "split": "train"
+    },
+    {
+      "path": "forest/eurosat_forest_Forest_1482.jpg",
+      "sha256": "bcfbb8233570c1691372e9ab7470b706feb58ef67ecf9fc678609f1b16bf7ce9",
+      "label": "forest",
+      "split": "test"
+    },
+    {
+      "path": "forest/eurosat_forest_Forest_1485.jpg",
+      "sha256": "adeb6d60f253bfa08eb947002db0e576283d2a3e1d1c9ff51a5b24cc859729f7",
+      "label": "forest",
+      "split": "train"
+    },
+    {
+      "path": "forest/eurosat_forest_Forest_1503.jpg",
+      "sha256": "12eaa8d9aa1592483a378a2abf727a2bb59efc67f0d291ebc5c5074bc89c69c7",
+      "label": "forest",
+      "split": "train"
+    },
+    {
+      "path": "forest/eurosat_forest_Forest_1519.jpg",
+      "sha256": "bc287f949497c067e170e2791b57b06719dfd4b0780e487bbbcf0459c401e477",
+      "label": "forest",
+      "split": "train"
+    },
+    {
+      "path": "forest/eurosat_forest_Forest_1532.jpg",
+      "sha256": "c0e5d3e8e824871c4f00d9c04c5ffec60ee4a4ab83017d4f9123c47e339bb8c5",
+      "label": "forest",
+      "split": "validation"
+    },
+    {
+      "path": "forest/eurosat_forest_Forest_1534.jpg",
+      "sha256": "f03adc14b009e897a3b92c5ca585aeaf215320a47426ab54eb9b3eb137de98a9",
+      "label": "forest",
+      "split": "train"
+    },
+    {
+      "path": "forest/eurosat_forest_Forest_1547.jpg",
+      "sha256": "3b1cacb2425fafa214204f50df035c68addb91e49f28fd9473297238fc57e8ca",
+      "label": "forest",
+      "split": "train"
+    },
+    {
+      "path": "forest/eurosat_forest_Forest_1583.jpg",
+      "sha256": "1e0a74e5828e67f79126258f62a9bb7b40b629c60666433b094b3b1b19f51d7f",
+      "label": "forest",
+      "split": "train"
+    },
+    {
+      "path": "forest/eurosat_forest_Forest_162.jpg",
+      "sha256": "b439e0fe869336b70aee3647b7458899abe91ab496021e9a675e992916d5fa2a",
+      "label": "forest",
+      "split": "train"
+    },
+    {
+      "path": "forest/eurosat_forest_Forest_1636.jpg",
+      "sha256": "f2038df7cbfca5cd79f4c32f6c90fd1049f19f02b4050632b1ea601583c1507c",
+      "label": "forest",
+      "split": "test"
+    },
+    {
+      "path": "forest/eurosat_forest_Forest_165.jpg",
+      "sha256": "bfe7f50cb131560e3cf3316f76e2ce48f2a9860bff356352c5087b73e4d4b4c6",
+      "label": "forest",
+      "split": "train"
+    },
+    {
+      "path": "forest/eurosat_forest_Forest_1685.jpg",
+      "sha256": "c1cb3505904e83adf2b94ed6757ebe0414d339b237403dbe2806ee7abc49974e",
+      "label": "forest",
+      "split": "train"
+    },
+    {
+      "path": "forest/eurosat_forest_Forest_1713.jpg",
+      "sha256": "2796a75ad3ca16c230ae3414a5f30a1bed9548da4143c23e36dd89ab2ba7a72c",
+      "label": "forest",
+      "split": "train"
+    },
+    {
+      "path": "forest/eurosat_forest_Forest_1742.jpg",
+      "sha256": "5f44e015f85b27c57806c14ff7b54ea928056d97feb6c8b057958ac8998b3872",
+      "label": "forest",
+      "split": "validation"
+    },
+    {
+      "path": "forest/eurosat_forest_Forest_1757.jpg",
+      "sha256": "6f4c95171be4156bd87388843897bc8d2aac5569eae18e25528743cf376b27be",
+      "label": "forest",
+      "split": "train"
+    },
+    {
+      "path": "forest/eurosat_forest_Forest_18.jpg",
+      "sha256": "09681c42187fc9b21ddf5fcfa533d6a49a768b3e2b5ba44b3aab0acf22a9caf8",
+      "label": "forest",
+      "split": "train"
+    },
+    {
+      "path": "forest/eurosat_forest_Forest_1844.jpg",
+      "sha256": "ec74dd435eac2b149a6ba2598f57b0b7437e27005eb689d9cefe7b77cc4e0fc5",
+      "label": "forest",
+      "split": "train"
+    },
+    {
+      "path": "forest/eurosat_forest_Forest_1860.jpg",
+      "sha256": "cfca0d59ab94ce31cce0d6d1c79248fb46490fc63b4aa27bc1daa9ea944261c1",
+      "label": "forest",
+      "split": "test"
+    },
+    {
+      "path": "forest/eurosat_forest_Forest_1869.jpg",
+      "sha256": "4857ff88c080643d08f51deb30c50f66c7ea64f7aa1677426103a8c326779cf1",
+      "label": "forest",
+      "split": "train"
+    },
+    {
+      "path": "forest/eurosat_forest_Forest_188.jpg",
+      "sha256": "cd2275acf38929d0a986d03241f9b701d6a2de7d26cea197a263608fc499af18",
+      "label": "forest",
+      "split": "validation"
+    },
+    {
+      "path": "forest/eurosat_forest_Forest_1892.jpg",
+      "sha256": "043e0e54ab7f335a770c8f9a2dd17c4426eaa53b0d90d98d44d276f4b49a6176",
+      "label": "forest",
+      "split": "train"
+    },
+    {
+      "path": "forest/eurosat_forest_Forest_1918.jpg",
+      "sha256": "921693c824a8ffc5d11e737a0b47249e582c37d3a46a7fdc6c3769b2d944f792",
+      "label": "forest",
+      "split": "train"
+    },
+    {
+      "path": "forest/eurosat_forest_Forest_1941.jpg",
+      "sha256": "ee1eff0459cbcc82afe4baf4ba2d534eea7ba691c1dcd3adbfcc6349e65f7234",
+      "label": "forest",
+      "split": "validation"
+    },
+    {
+      "path": "forest/eurosat_forest_Forest_1946.jpg",
+      "sha256": "b914813da1e7813c9c5e6ed47622641a2918f34be81676b17aab2ec015166049",
+      "label": "forest",
+      "split": "test"
+    },
+    {
+      "path": "forest/eurosat_forest_Forest_1996.jpg",
+      "sha256": "84c32dc33af240549114648a5a909a0c8edbebf75431fc569b41dafdaf76ea12",
+      "label": "forest",
+      "split": "train"
+    },
+    {
+      "path": "forest/eurosat_forest_Forest_2019.jpg",
+      "sha256": "aee28aa0d334a53e55b2113d63ec09bf63a21432cbd6b154f3fac9bf8333c3fa",
+      "label": "forest",
+      "split": "train"
+    },
+    {
+      "path": "forest/eurosat_forest_Forest_2035.jpg",
+      "sha256": "95c7716e8be453d661bbbd8dd3974b5ecff345d12884f36d7197fe60b6d0f193",
+      "label": "forest",
+      "split": "test"
+    },
+    {
+      "path": "forest/eurosat_forest_Forest_2082.jpg",
+      "sha256": "bd39590e19f617e8e124f6dbee7aedd8651e7e2200247a32689e0c0f8133292e",
+      "label": "forest",
+      "split": "validation"
+    },
+    {
+      "path": "forest/eurosat_forest_Forest_2106.jpg",
+      "sha256": "0c9beb2c3b89d1db13a0c90ee420420e75fa2adf5fb487c01f6d74191c514f9e",
+      "label": "forest",
+      "split": "train"
+    },
+    {
+      "path": "forest/eurosat_forest_Forest_2139.jpg",
+      "sha256": "f18776f1be8c9418c52cbfee209b14622159a5cfac083e426c874f7e2146a459",
+      "label": "forest",
+      "split": "test"
+    },
+    {
+      "path": "forest/eurosat_forest_Forest_2185.jpg",
+      "sha256": "3984b94f0bc83cd95d31eda6ead537750987b26bd808c0ce9e8ec2b620cec958",
+      "label": "forest",
+      "split": "train"
+    },
+    {
+      "path": "forest/eurosat_forest_Forest_2243.jpg",
+      "sha256": "ff694ca8eaccf932cec0874cac9b60b49835f53163c053d64dad7afe9a4059f7",
+      "label": "forest",
+      "split": "validation"
+    },
+    {
+      "path": "forest/eurosat_forest_Forest_2265.jpg",
+      "sha256": "ba83371f98815598a7c075b2ab526fbfec623e6d4359d37e00bddfdb741f0ca7",
+      "label": "forest",
+      "split": "train"
+    },
+    {
+      "path": "forest/eurosat_forest_Forest_2291.jpg",
+      "sha256": "cd9b3450136277328ab5e2eb41a978a75e14be476867fd2f867316aef782c85e",
+      "label": "forest",
+      "split": "train"
+    },
+    {
+      "path": "forest/eurosat_forest_Forest_2298.jpg",
+      "sha256": "ea7d9a7640e0711fb4ecb0ff6b94cbcd8b56de6193e8778a54bbb06887814f30",
+      "label": "forest",
+      "split": "train"
+    },
+    {
+      "path": "forest/eurosat_forest_Forest_2302.jpg",
+      "sha256": "be4fb679f9febc22d33a9fca5f83bd0eab081af58001185fb888b1328f72c044",
+      "label": "forest",
+      "split": "validation"
+    },
+    {
+      "path": "forest/eurosat_forest_Forest_2320.jpg",
+      "sha256": "3912a1be799e890420f544630639555ae359b33c4a78b4f8c91998031a4419bf",
+      "label": "forest",
+      "split": "train"
+    },
+    {
+      "path": "forest/eurosat_forest_Forest_2323.jpg",
+      "sha256": "447313ea07778f8695a8fa57e8173f6648df092faed54cc6d9e0005dafe1d75d",
+      "label": "forest",
+      "split": "test"
+    },
+    {
+      "path": "forest/eurosat_forest_Forest_234.jpg",
+      "sha256": "5be4b2e250d72c0d2bc5c263282824019a8a0d62509db431e868c1369dba5f5b",
+      "label": "forest",
+      "split": "train"
+    },
+    {
+      "path": "forest/eurosat_forest_Forest_2349.jpg",
+      "sha256": "8ff120ad4ec16f367aa1bcd3030912828db29b03e4e4d4d46ee1f711bc3f3e0c",
+      "label": "forest",
+      "split": "test"
+    },
+    {
+      "path": "forest/eurosat_forest_Forest_2353.jpg",
+      "sha256": "6f7977cf5aba575b40103a1e247dbc5a6002b9d133d2ca32677b65f0a7f913a8",
+      "label": "forest",
+      "split": "train"
+    },
+    {
+      "path": "forest/eurosat_forest_Forest_2380.jpg",
+      "sha256": "d46533569d149e99d6fe80533cbc401105fd64057a92d74290f129bb5481a762",
+      "label": "forest",
+      "split": "train"
+    },
+    {
+      "path": "forest/eurosat_forest_Forest_2426.jpg",
+      "sha256": "855a4f14f7e9ac047e5bed65a9a3cef4c9c6355c233b961c5b03d8813b132c89",
+      "label": "forest",
+      "split": "train"
+    },
+    {
+      "path": "forest/eurosat_forest_Forest_2507.jpg",
+      "sha256": "5f938ab8b8db1218c55a52abf6b8a224e052174a66e23a882e3078f60bda5a1a",
+      "label": "forest",
+      "split": "validation"
+    },
+    {
+      "path": "forest/eurosat_forest_Forest_2553.jpg",
+      "sha256": "629035d82e94d34b265cc41f0df5790228b9b13eb4861e8cc751647862e89d91",
+      "label": "forest",
+      "split": "validation"
+    },
+    {
+      "path": "forest/eurosat_forest_Forest_2574.jpg",
+      "sha256": "7b408eda9f831509a147c4072585b02eb28ef7c33917a44e829d236d598bfa2d",
+      "label": "forest",
+      "split": "validation"
+    },
+    {
+      "path": "forest/eurosat_forest_Forest_2598.jpg",
+      "sha256": "c612c6946d3882fc58db159069035e9be7c0716cd4c64edfb6913c679947e572",
+      "label": "forest",
+      "split": "train"
+    },
+    {
+      "path": "forest/eurosat_forest_Forest_2602.jpg",
+      "sha256": "551374ad0cd8ece372f3deb3a86510a8d3ab9ccee6911ad99dbedc552796e597",
+      "label": "forest",
+      "split": "train"
+    },
+    {
+      "path": "forest/eurosat_forest_Forest_2611.jpg",
+      "sha256": "3c9a99ee6d3399f39c8a69be9de1f7fe4ca50f42cc0943efd81360772e3b5cb4",
+      "label": "forest",
+      "split": "train"
+    },
+    {
+      "path": "forest/eurosat_forest_Forest_2614.jpg",
+      "sha256": "a77789a81ef5f159d4a8852bbcf64cd7b0070b74b46dd3d59187be0001df7378",
+      "label": "forest",
+      "split": "train"
+    },
+    {
+      "path": "forest/eurosat_forest_Forest_2635.jpg",
+      "sha256": "cc7f787aedacd11ee6740c8b2f09d041902742f56cd00d2586c3b037632e2b03",
+      "label": "forest",
+      "split": "validation"
+    },
+    {
+      "path": "forest/eurosat_forest_Forest_271.jpg",
+      "sha256": "b00e5d6325bb922bfebc8bda194d225e895e266c635d1e5cf01fa325c2d44af0",
+      "label": "forest",
+      "split": "test"
+    },
+    {
+      "path": "forest/eurosat_forest_Forest_2737.jpg",
+      "sha256": "ca98f2a778bc1142e1a986eb04ba42d7c58deabaf6ddee27927c7824e3e6f9ef",
+      "label": "forest",
+      "split": "train"
+    },
+    {
+      "path": "forest/eurosat_forest_Forest_2772.jpg",
+      "sha256": "c1a1eaae832d1c5d433ed69e4a47cd9072260540e5ea066692797b3e158becfb",
+      "label": "forest",
+      "split": "train"
+    },
+    {
+      "path": "forest/eurosat_forest_Forest_2774.jpg",
+      "sha256": "9ebfc77efff6e46fc48212247d8519331b4b1196c3c44ffb2876f1c10fe30db8",
+      "label": "forest",
+      "split": "validation"
+    },
+    {
+      "path": "forest/eurosat_forest_Forest_2802.jpg",
+      "sha256": "b1248f0542c47c08f166c9474f7de4c2298968d0427b36777a18326900f2ecea",
+      "label": "forest",
+      "split": "train"
+    },
+    {
+      "path": "forest/eurosat_forest_Forest_2840.jpg",
+      "sha256": "6d3bce9af9a7968d37788c35462c16b13369cd2407c9c7edc6892fc15e7e3bf4",
+      "label": "forest",
+      "split": "validation"
+    },
+    {
+      "path": "forest/eurosat_forest_Forest_2841.jpg",
+      "sha256": "76f979d230ce0e029f76f5a12694ecdb200d78d4716727cc1450ad2bfa8f8855",
+      "label": "forest",
+      "split": "test"
+    },
+    {
+      "path": "forest/eurosat_forest_Forest_2918.jpg",
+      "sha256": "025d1dc3fb5afbceb3ff07e40447002b5c89b482672d2772c1c085fe636a8b42",
+      "label": "forest",
+      "split": "test"
+    },
+    {
+      "path": "forest/eurosat_forest_Forest_292.jpg",
+      "sha256": "fffb5ad65d6e943f606c8def04918301c7c55f8f1b40a8c1b5188466c8a44c13",
+      "label": "forest",
+      "split": "train"
+    },
+    {
+      "path": "forest/eurosat_forest_Forest_2931.jpg",
+      "sha256": "6409dca9b70f3513fc85ea2b3cabb919bf952de0949df4493b1e6e3fe85e8b5b",
+      "label": "forest",
+      "split": "train"
+    },
+    {
+      "path": "forest/eurosat_forest_Forest_2951.jpg",
+      "sha256": "4c165be188c81620b5cdd26c9f17564368d4211c98e7e8836d6faad8ef8cde06",
+      "label": "forest",
+      "split": "train"
+    },
+    {
+      "path": "forest/eurosat_forest_Forest_311.jpg",
+      "sha256": "72abe7d5dedf5f3eeafb94ca640186dbaef4a64628eb1d64701fad61d4daa516",
+      "label": "forest",
+      "split": "train"
+    },
+    {
+      "path": "forest/eurosat_forest_Forest_344.jpg",
+      "sha256": "e01a37e0e79e8f0916e2cc5f2ef03840da598e27aa9138773b4ddf4dea02b3e7",
+      "label": "forest",
+      "split": "train"
+    },
+    {
+      "path": "forest/eurosat_forest_Forest_389.jpg",
+      "sha256": "0ef9d03c747842016ed2302069776e1e4e50e5a4f3df7a4537cc58957c02cf62",
+      "label": "forest",
+      "split": "test"
+    },
+    {
+      "path": "forest/eurosat_forest_Forest_466.jpg",
+      "sha256": "f4afb0b0a58891c9e1d5cbed1c54db9bc44ca82e2defa99f88afe11508a9bb94",
+      "label": "forest",
+      "split": "train"
+    },
+    {
+      "path": "forest/eurosat_forest_Forest_5.jpg",
+      "sha256": "4c853a0181129c3c9d9857e975a34a86a38bd2cc80f15e9d48d12493067c58f6",
+      "label": "forest",
+      "split": "validation"
+    },
+    {
+      "path": "forest/eurosat_forest_Forest_55.jpg",
+      "sha256": "b382396620601bd7d67d9ab86bdb969213d3ccf9bf98a1debbd608d6f3a2f488",
+      "label": "forest",
+      "split": "test"
+    },
+    {
+      "path": "forest/eurosat_forest_Forest_552.jpg",
+      "sha256": "f3bcdfe08d19be645d572ca061f74fab6c052dfac49532e94253a7af9013f555",
+      "label": "forest",
+      "split": "train"
+    },
+    {
+      "path": "forest/eurosat_forest_Forest_635.jpg",
+      "sha256": "ca63cd240dab9f3112431acb987d51a2f186aacda1ead3f934f780dfd39c52e7",
+      "label": "forest",
+      "split": "train"
+    },
+    {
+      "path": "forest/eurosat_forest_Forest_642.jpg",
+      "sha256": "bbd03f96e29b774bc49a7d3cc59c8e6adcb15f5552246b224b73d24f236d05e8",
+      "label": "forest",
+      "split": "train"
+    },
+    {
+      "path": "forest/eurosat_forest_Forest_649.jpg",
+      "sha256": "3b4248564753adb292648b927cbcbda6431f020b750e27a727fb7be7fe89a295",
+      "label": "forest",
+      "split": "train"
+    },
+    {
+      "path": "forest/eurosat_forest_Forest_674.jpg",
+      "sha256": "5629a9fde3619bab0c582ea32258db206ac35860499c15ea553fcb3ed721f4c5",
+      "label": "forest",
+      "split": "train"
+    },
+    {
+      "path": "forest/eurosat_forest_Forest_675.jpg",
+      "sha256": "3129b9d434de8b64fa297915a075ae7a845dd690d1dd9c8a7a63feac48d81299",
+      "label": "forest",
+      "split": "train"
+    },
+    {
+      "path": "forest/eurosat_forest_Forest_676.jpg",
+      "sha256": "0ada1b5898a1b10e81205e79825f04a117a98047b33ca1149074fb2a2d7ab22a",
+      "label": "forest",
+      "split": "train"
+    },
+    {
+      "path": "forest/eurosat_forest_Forest_683.jpg",
+      "sha256": "4d606cb8744962fe84cb414928d8eebf1b81531a5a053a58bd3d0bee6b4e9785",
+      "label": "forest",
+      "split": "train"
+    },
+    {
+      "path": "forest/eurosat_forest_Forest_708.jpg",
+      "sha256": "e439e88fb38a79f8f57be03dedd372359fe5c50d1b92eb07c475ece905cdae85",
+      "label": "forest",
+      "split": "train"
+    },
+    {
+      "path": "forest/eurosat_forest_Forest_754.jpg",
+      "sha256": "3f5636db4d5647f040999b3eaa38efbde92e421dedc878a0ee8bf4c34766518e",
+      "label": "forest",
+      "split": "train"
+    },
+    {
+      "path": "forest/eurosat_forest_Forest_757.jpg",
+      "sha256": "360cf7c32a26284dd2b8c37c4d2ff7db7f7a1ae5a26a577cecdebc7a8c3d1fba",
+      "label": "forest",
+      "split": "train"
+    },
+    {
+      "path": "forest/eurosat_forest_Forest_78.jpg",
+      "sha256": "cbc679f22814b49d5c0e8c71b3bd0a36d6c4d5783da2be789ebc3abc11b754b0",
+      "label": "forest",
+      "split": "test"
+    },
+    {
+      "path": "forest/eurosat_forest_Forest_842.jpg",
+      "sha256": "f85a02c392b61db2e18b695dbe1e59bf6f05c37582391a8e7e342e79fb771d05",
+      "label": "forest",
+      "split": "train"
+    },
+    {
+      "path": "forest/eurosat_forest_Forest_922.jpg",
+      "sha256": "59ef5190d5937daea296d5055689fea07c24d305974f2d18b0e551edfbf1004c",
+      "label": "forest",
+      "split": "train"
+    },
+    {
+      "path": "forest/eurosat_forest_Forest_935.jpg",
+      "sha256": "60c7c4881f68e82ec5f2837bf9dee1510ca1baed1d2293f2530e0dfef0f6f1fd",
+      "label": "forest",
+      "split": "train"
+    },
+    {
+      "path": "urban/eurosat_highway_Highway_1071.jpg",
+      "sha256": "b62fdb4fd721c01c7a95c1406282c086e223a7cfb29aa53fcba1bb864f0cb134",
+      "label": "urban",
+      "split": "test"
+    },
+    {
+      "path": "urban/eurosat_highway_Highway_1078.jpg",
+      "sha256": "e3f9f85e6ebe5d11f5400f30ed7ae29a76e1cb61cce519bbec1d97649187b6a9",
+      "label": "urban",
+      "split": "train"
+    },
+    {
+      "path": "urban/eurosat_highway_Highway_1270.jpg",
+      "sha256": "dec78f7f7b083fd8dfbce0fd1cfb0150bfef6df48261f3c5737522408dc25e14",
+      "label": "urban",
+      "split": "validation"
+    },
+    {
+      "path": "urban/eurosat_highway_Highway_1427.jpg",
+      "sha256": "2750b4d97db934daf7974839a00df42c5fe57760d63dc4400de8cce46ff84368",
+      "label": "urban",
+      "split": "train"
+    },
+    {
+      "path": "urban/eurosat_highway_Highway_157.jpg",
+      "sha256": "5a385aaf67899f663d28490137651578d3d642d34a49b20224c638ddd5e7a45c",
+      "label": "urban",
+      "split": "train"
+    },
+    {
+      "path": "urban/eurosat_highway_Highway_1750.jpg",
+      "sha256": "25f7a73b217facb414b14365975e45e359ee4ce85d7b5297acc4faa7c2d3880b",
+      "label": "urban",
+      "split": "train"
+    },
+    {
+      "path": "urban/eurosat_highway_Highway_1815.jpg",
+      "sha256": "ceb638f4fa3e6e50f28bbfc680514edf0d6d94ce667167aea706f026cc6db347",
+      "label": "urban",
+      "split": "test"
+    },
+    {
+      "path": "urban/eurosat_highway_Highway_1915.jpg",
+      "sha256": "d118e15ef0a12cfab9b511c6d86d3565d9b261a5ed365d3c0bb0e881806df1b2",
+      "label": "urban",
+      "split": "train"
+    },
+    {
+      "path": "urban/eurosat_highway_Highway_1989.jpg",
+      "sha256": "aab9df289866510941bb7673e713e33f8045f14dc6571a1482ac772fd2f6b7d1",
+      "label": "urban",
+      "split": "test"
+    },
+    {
+      "path": "urban/eurosat_highway_Highway_200.jpg",
+      "sha256": "f60f4dc6d328157874c25d491690083820f56bd63e71cc3e4ab41e2d52c046cb",
+      "label": "urban",
+      "split": "train"
+    },
+    {
+      "path": "urban/eurosat_highway_Highway_2030.jpg",
+      "sha256": "c3508c7ba2e117a366ae8a1e0bcad81ab41d1134706cf2ecdcae4a8145a3c8a6",
+      "label": "urban",
+      "split": "train"
+    },
+    {
+      "path": "urban/eurosat_highway_Highway_2045.jpg",
+      "sha256": "eacf7bd5307655841dfbd1b4b5c370f14d8f65fd27f577a8a9797f98c917fc9b",
+      "label": "urban",
+      "split": "train"
+    },
+    {
+      "path": "urban/eurosat_highway_Highway_2070.jpg",
+      "sha256": "9a1c3eeeb81a105e7306e05b25ec74420bb675df7dd34d43e535c3516a3ebae0",
+      "label": "urban",
+      "split": "train"
+    },
+    {
+      "path": "urban/eurosat_highway_Highway_2083.jpg",
+      "sha256": "f1e00eabcb33d049d31e01e741b10dde6ee2b024042d77ecfdd62dd4c79c6b48",
+      "label": "urban",
+      "split": "test"
+    },
+    {
+      "path": "urban/eurosat_highway_Highway_2169.jpg",
+      "sha256": "7886b92228194384e9ffc750e5c8ce149a8e1cf25892ef6f6d01933b539342db",
+      "label": "urban",
+      "split": "train"
+    },
+    {
+      "path": "urban/eurosat_highway_Highway_2174.jpg",
+      "sha256": "2f41d95eb7c20019b50f6a426e3b832e093b599c9fcc734df7a8c842f77c4610",
+      "label": "urban",
+      "split": "test"
+    },
+    {
+      "path": "urban/eurosat_highway_Highway_2178.jpg",
+      "sha256": "adb54f078e3db6183dae8535803fb3cc086deb0604bbb08745d1a43f6c2e84f7",
+      "label": "urban",
+      "split": "train"
+    },
+    {
+      "path": "urban/eurosat_highway_Highway_2226.jpg",
+      "sha256": "42f256fc2cf8d5fdb82e430fdffe18ce20e1fed467f67c0e3dd4999f890b020d",
+      "label": "urban",
+      "split": "test"
+    },
+    {
+      "path": "urban/eurosat_highway_Highway_2267.jpg",
+      "sha256": "d7ee53c0ef58fb63ac51c4acea8e914ea3e91ddd37f1be0d270f033551299c9e",
+      "label": "urban",
+      "split": "train"
+    },
+    {
+      "path": "urban/eurosat_highway_Highway_2281.jpg",
+      "sha256": "d753203fb5c31612a19fa17e910f0f935fc7e23daa38595ac7c60337c760bb34",
+      "label": "urban",
+      "split": "train"
+    },
+    {
+      "path": "urban/eurosat_highway_Highway_2350.jpg",
+      "sha256": "5a20feda37db8dbfbd6cc76b0a7312867463a3523e07752b479e207393c8544a",
+      "label": "urban",
+      "split": "train"
+    },
+    {
+      "path": "urban/eurosat_highway_Highway_2395.jpg",
+      "sha256": "d61a56adbefec02c578e0a92697511efab282b650b430cb1bc22eed3b6d84310",
+      "label": "urban",
+      "split": "train"
+    },
+    {
+      "path": "urban/eurosat_highway_Highway_2407.jpg",
+      "sha256": "327892577c8c5883eff9ea5eb0cedbe10707b87e7a4bc78c9df66578250b8e0c",
+      "label": "urban",
+      "split": "train"
+    },
+    {
+      "path": "urban/eurosat_highway_Highway_461.jpg",
+      "sha256": "f6f0f5b66c1aa28db83ccfedb2b24538fbdf3bdfb3dd82bf58a89e42ad3e50ba",
+      "label": "urban",
+      "split": "train"
+    },
+    {
+      "path": "urban/eurosat_highway_Highway_476.jpg",
+      "sha256": "b2364043e8e207532ccd0b0317a3eaaa9d641a3f24c06cda81ff14f84157ae3d",
+      "label": "urban",
+      "split": "train"
+    },
+    {
+      "path": "urban/eurosat_highway_Highway_630.jpg",
+      "sha256": "04c626af2a2e3dc2e1fdd2597272d1c5a03978e7751f277028ed7efc36f6f774",
+      "label": "urban",
+      "split": "train"
+    },
+    {
+      "path": "urban/eurosat_highway_Highway_632.jpg",
+      "sha256": "6fd55f24c3754d0a3933024cf4ee2b3142b4f107a524847390e2da0310113fc7",
+      "label": "urban",
+      "split": "validation"
+    },
+    {
+      "path": "urban/eurosat_highway_Highway_75.jpg",
+      "sha256": "33749f498a00fa5e9a5b15864b00d3519104414675acc4e47c76f1901183a307",
+      "label": "urban",
+      "split": "train"
+    },
+    {
+      "path": "urban/eurosat_highway_Highway_868.jpg",
+      "sha256": "242ff3229bb217ec89dcf9359a54a62dd946dbe6831f913891e76841e5f20188",
+      "label": "urban",
+      "split": "test"
+    },
+    {
+      "path": "urban/eurosat_industrial_Industrial_1092.jpg",
+      "sha256": "088f48b6be1ec3cdcb79b5aac9168fe14a597fc627ff4f4ab06cd3e420dde197",
+      "label": "urban",
+      "split": "train"
+    },
+    {
+      "path": "urban/eurosat_industrial_Industrial_1121.jpg",
+      "sha256": "4f76ccbc56088822ab67d6c53662af3cdd282a41b0ea882021f29a85aa153fa1",
+      "label": "urban",
+      "split": "test"
+    },
+    {
+      "path": "urban/eurosat_industrial_Industrial_1163.jpg",
+      "sha256": "04fdc72f6f188584a125ab92f36be8816b8abe14be3691c9397d3a175e0162e9",
+      "label": "urban",
+      "split": "train"
+    },
+    {
+      "path": "urban/eurosat_industrial_Industrial_1258.jpg",
+      "sha256": "e2368cb5918803a4f52d4ba658b613007891be589b3a767d1608a9b784528ee4",
+      "label": "urban",
+      "split": "validation"
+    },
+    {
+      "path": "urban/eurosat_industrial_Industrial_1322.jpg",
+      "sha256": "f001d9cdb013e1d76feb8a98ab8eac7ea63b2ce8d6760384c09916ca9ced4a6e",
+      "label": "urban",
+      "split": "train"
+    },
+    {
+      "path": "urban/eurosat_industrial_Industrial_1422.jpg",
+      "sha256": "fc314492bc8882c65f2443d3915df1b9379edfe8a42b9dc1b4b3a1ef68e1255b",
+      "label": "urban",
+      "split": "validation"
+    },
+    {
+      "path": "urban/eurosat_industrial_Industrial_1434.jpg",
+      "sha256": "20170401d778e2ba324b9b10f498f64db70da0b6f7151f9a7a5c94d182c6f566",
+      "label": "urban",
+      "split": "train"
+    },
+    {
+      "path": "urban/eurosat_industrial_Industrial_1698.jpg",
+      "sha256": "6ee2253b2f18c85385f0937f916762887eb186d271721ebd7fbc6d2f871351aa",
+      "label": "urban",
+      "split": "train"
+    },
+    {
+      "path": "urban/eurosat_industrial_Industrial_1748.jpg",
+      "sha256": "9aaaf79789dbcbed0070a966af3f2026fe4d2b5b5819bd4a6780db04a5e62664",
+      "label": "urban",
+      "split": "train"
+    },
+    {
+      "path": "urban/eurosat_industrial_Industrial_1755.jpg",
+      "sha256": "05ffebb92895e42faeb47b14e70fa8a9b0b3a0edd0cef5cc7b05afda149035e0",
+      "label": "urban",
+      "split": "train"
+    },
+    {
+      "path": "urban/eurosat_industrial_Industrial_180.jpg",
+      "sha256": "9ec44f13979c6b7e49cb9c094d17f598333fdf1e39f47a4f31e37fa36dd057a5",
+      "label": "urban",
+      "split": "validation"
+    },
+    {
+      "path": "urban/eurosat_industrial_Industrial_1818.jpg",
+      "sha256": "9af6b4fe9df83ae350811f11acfaf50adecf15a465fe535f1be88045bfa157e1",
+      "label": "urban",
+      "split": "validation"
+    },
+    {
+      "path": "urban/eurosat_industrial_Industrial_1836.jpg",
+      "sha256": "65444622a8b586626501b99161238c4134b743830c62f7e002b751ffab1daa23",
+      "label": "urban",
+      "split": "train"
+    },
+    {
+      "path": "urban/eurosat_industrial_Industrial_188.jpg",
+      "sha256": "1a74beba228a61be3f3539f203efd9da857738adede1ff77f854aca08b56120a",
+      "label": "urban",
+      "split": "train"
+    },
+    {
+      "path": "urban/eurosat_industrial_Industrial_1896.jpg",
+      "sha256": "ff3da32de9280abafd0402251c823f4e70f0fd22bf022a7e292784f46f68f326",
+      "label": "urban",
+      "split": "train"
+    },
+    {
+      "path": "urban/eurosat_industrial_Industrial_2055.jpg",
+      "sha256": "90e41e9d49c81886d9fa8cd7eaca67f1aba6c0cd887bf4e2a6e35a11461dfefb",
+      "label": "urban",
+      "split": "train"
+    },
+    {
+      "path": "urban/eurosat_industrial_Industrial_2190.jpg",
+      "sha256": "98b7a6492a6c5ada38e21ee4026bc4d13044b6f752c4ef50cbcf2186ea481c31",
+      "label": "urban",
+      "split": "validation"
+    },
+    {
+      "path": "urban/eurosat_industrial_Industrial_2205.jpg",
+      "sha256": "78b953c8cc14d2826947ebadb11bf320e0bb0c779e4b63731faaeae5546b563a",
+      "label": "urban",
+      "split": "train"
+    },
+    {
+      "path": "urban/eurosat_industrial_Industrial_227.jpg",
+      "sha256": "17c7f65a8e008af7777511b5d121d416112e7ef16ebdfe0827f8b5858d20667b",
+      "label": "urban",
+      "split": "train"
+    },
+    {
+      "path": "urban/eurosat_industrial_Industrial_2277.jpg",
+      "sha256": "d65d4d5c966224d8190b8fcfe01ce3859ee9c0eeb396f2b4b07f1e138fa5243e",
+      "label": "urban",
+      "split": "train"
+    },
+    {
+      "path": "urban/eurosat_industrial_Industrial_2315.jpg",
+      "sha256": "7ffd874f6b6b8c10e3ea9fc684441c083d169a072aac7b0e194977e8a40531df",
+      "label": "urban",
+      "split": "validation"
+    },
+    {
+      "path": "urban/eurosat_industrial_Industrial_2455.jpg",
+      "sha256": "8fc16743109cbd857cdaf33904b6989c31f42eb31f20daf1082adf9012717b3e",
+      "label": "urban",
+      "split": "train"
+    },
+    {
+      "path": "urban/eurosat_industrial_Industrial_2461.jpg",
+      "sha256": "9ed5188610d9dd28faccdc08bb8f26bdcbae43aea03799154c976f1d39f7dd2d",
+      "label": "urban",
+      "split": "test"
+    },
+    {
+      "path": "urban/eurosat_industrial_Industrial_279.jpg",
+      "sha256": "7652a4a98369563a26cf209fa0331c781b40af81b76301c1994c0d3298f9fa22",
+      "label": "urban",
+      "split": "test"
+    },
+    {
+      "path": "urban/eurosat_industrial_Industrial_29.jpg",
+      "sha256": "f5d9fcb8e49d59f8c2aa95bd8759bcdfe9b937d1adef73707678adee9f525bc5",
+      "label": "urban",
+      "split": "train"
+    },
+    {
+      "path": "urban/eurosat_industrial_Industrial_295.jpg",
+      "sha256": "d8d6bf5402fcba8bd07f170f241592823566896f7d36a0a0092b846e903079fb",
+      "label": "urban",
+      "split": "train"
+    },
+    {
+      "path": "urban/eurosat_industrial_Industrial_304.jpg",
+      "sha256": "95cf5bbc7d9f30ee45daa48ce0f95b586c8a9493260c018eb8aed833ff5f9e13",
+      "label": "urban",
+      "split": "train"
+    },
+    {
+      "path": "urban/eurosat_industrial_Industrial_333.jpg",
+      "sha256": "a8a9542665216b8167c05d43bf1f419cf0f5c4006c6255e21ee986d926d6cf3c",
+      "label": "urban",
+      "split": "train"
+    },
+    {
+      "path": "urban/eurosat_industrial_Industrial_621.jpg",
+      "sha256": "40a4661ecca9989fec9324a9d4cea0d1771eb89e44e69407653aabd1dec01064",
+      "label": "urban",
+      "split": "validation"
+    },
+    {
+      "path": "urban/eurosat_industrial_Industrial_627.jpg",
+      "sha256": "6634a4b3bd0758270d168e22336cffdfab414fba9213d2c7b2e780264b3885b0",
+      "label": "urban",
+      "split": "train"
+    },
+    {
+      "path": "urban/eurosat_industrial_Industrial_788.jpg",
+      "sha256": "b2ff8c4802e41115957fc5411f12c59edda6702a818bf8bcf1f10c413e66e4a4",
+      "label": "urban",
+      "split": "train"
+    },
+    {
+      "path": "urban/eurosat_industrial_Industrial_906.jpg",
+      "sha256": "04869a23b88cdf523f341d227b8713b673b5c010456f6ac2ab2c2f9fc978ffe0",
+      "label": "urban",
+      "split": "train"
+    },
+    {
+      "path": "urban/eurosat_industrial_Industrial_992.jpg",
+      "sha256": "bcdb131a5ddf4169b1f18751c80bb36d035e02a99088b467143a166d46f57d6d",
+      "label": "urban",
+      "split": "train"
+    },
+    {
+      "path": "urban/eurosat_residential_Residential_1013.jpg",
+      "sha256": "8a3afe92b802b08d6129a05fceabc87270e78be115ff652983733d26b5e520db",
+      "label": "urban",
+      "split": "train"
+    },
+    {
+      "path": "urban/eurosat_residential_Residential_1026.jpg",
+      "sha256": "dbcd34fc2fad1e9a76bb64583c680c34b06ffcfccc465d5878237f41d710edcd",
+      "label": "urban",
+      "split": "validation"
+    },
+    {
+      "path": "urban/eurosat_residential_Residential_1054.jpg",
+      "sha256": "ae49494b2419f3b65429e0e039cf23aa5776d11b1e0e5e59086079372d87638a",
+      "label": "urban",
+      "split": "train"
+    },
+    {
+      "path": "urban/eurosat_residential_Residential_1235.jpg",
+      "sha256": "a1e33236da175fb665e079b103c1d1de15e31e5b3ed424d0701d5c25ecf33480",
+      "label": "urban",
+      "split": "train"
+    },
+    {
+      "path": "urban/eurosat_residential_Residential_1259.jpg",
+      "sha256": "773fcff5c1a3fd059d3310942c31bd22334fd3ad770cc363fc55af5507c84a5b",
+      "label": "urban",
+      "split": "train"
+    },
+    {
+      "path": "urban/eurosat_residential_Residential_1357.jpg",
+      "sha256": "11b9aef6e441795e7643bf6389ac7361f1f486f57d819ef18ae783c3d1e7da60",
+      "label": "urban",
+      "split": "train"
+    },
+    {
+      "path": "urban/eurosat_residential_Residential_153.jpg",
+      "sha256": "28e1d2910002505e488c6575b6a4ab46d52c598a4d1669b2a668442aa090f6d1",
+      "label": "urban",
+      "split": "validation"
+    },
+    {
+      "path": "urban/eurosat_residential_Residential_1628.jpg",
+      "sha256": "b10d0beef9ce199d3917f68f821e9162dae1a9fce5a73cba185017eaba5e8595",
+      "label": "urban",
+      "split": "train"
+    },
+    {
+      "path": "urban/eurosat_residential_Residential_1686.jpg",
+      "sha256": "4653e6686986c6dcb11d86b186b45c3ea50d14d3822c44b0a90e397b9a4eb716",
+      "label": "urban",
+      "split": "train"
+    },
+    {
+      "path": "urban/eurosat_residential_Residential_1689.jpg",
+      "sha256": "30f4e286d9784dc7b44b74698e66d6b66a2c44e7645a4a327d3376743aa68864",
+      "label": "urban",
+      "split": "train"
+    },
+    {
+      "path": "urban/eurosat_residential_Residential_1732.jpg",
+      "sha256": "2ad16b87d669803fee0e924f3994d21cca95db69bb147dea9df631dbd60050de",
+      "label": "urban",
+      "split": "train"
+    },
+    {
+      "path": "urban/eurosat_residential_Residential_1794.jpg",
+      "sha256": "aa160daf1f9008b8e7d9255cef70c16b60e1e40d65feb2014cafdea2b252adb6",
+      "label": "urban",
+      "split": "validation"
+    },
+    {
+      "path": "urban/eurosat_residential_Residential_1831.jpg",
+      "sha256": "bd978bd350db298706ef2d83079eabb0c88b2bb1b05ba8beccd6cef346e3df02",
+      "label": "urban",
+      "split": "test"
+    },
+    {
+      "path": "urban/eurosat_residential_Residential_1840.jpg",
+      "sha256": "84ddf1ef7882ec0f5dd005cae175d3e6d8648f9c177d66d58878ad38c15fca88",
+      "label": "urban",
+      "split": "train"
+    },
+    {
+      "path": "urban/eurosat_residential_Residential_1956.jpg",
+      "sha256": "46ec433b5e2c664b2b22174bdcbd2853125e840f9568ffc9c1119367d5d978ad",
+      "label": "urban",
+      "split": "validation"
+    },
+    {
+      "path": "urban/eurosat_residential_Residential_2002.jpg",
+      "sha256": "c1991a380eda1ba390b9882d6b20cca560f9ac054bc0e721be59e7a43f49c8d7",
+      "label": "urban",
+      "split": "train"
+    },
+    {
+      "path": "urban/eurosat_residential_Residential_2029.jpg",
+      "sha256": "11416dce8e18a5307ace532a62c56b5c81d8683452ec06bce52c7861475fe714",
+      "label": "urban",
+      "split": "train"
+    },
+    {
+      "path": "urban/eurosat_residential_Residential_2063.jpg",
+      "sha256": "7f28e769a40fdd34ee73202081c0e05c24e689285b204ab6418670113d901bd1",
+      "label": "urban",
+      "split": "train"
+    },
+    {
+      "path": "urban/eurosat_residential_Residential_2070.jpg",
+      "sha256": "5daa30e29d026d6726ae72711dad1895e5f12268c9514e156f7a1110a07a5cb3",
+      "label": "urban",
+      "split": "test"
+    },
+    {
+      "path": "urban/eurosat_residential_Residential_2220.jpg",
+      "sha256": "1a9722656c3426561f5ebb2ba97822d0fd2e580a4495aad2b188ea4c60226715",
+      "label": "urban",
+      "split": "train"
+    },
+    {
+      "path": "urban/eurosat_residential_Residential_2258.jpg",
+      "sha256": "5d6dd1e543170475e8d1c488f0ecf7f94f8b9da9e72cc7eaf19b1703f3ae5c42",
+      "label": "urban",
+      "split": "train"
+    },
+    {
+      "path": "urban/eurosat_residential_Residential_241.jpg",
+      "sha256": "57a8ec6b27148e2d5af672f8a9c2f15de4025fa4b00e72559c50ffce5f7ccae1",
+      "label": "urban",
+      "split": "train"
+    },
+    {
+      "path": "urban/eurosat_residential_Residential_2428.jpg",
+      "sha256": "c57f9e7cb2341f235c6a408979abbe097c99d269bf2ee34b02200a3ef7c7aae6",
+      "label": "urban",
+      "split": "test"
+    },
+    {
+      "path": "urban/eurosat_residential_Residential_2487.jpg",
+      "sha256": "f4527abed4af8af2bfb7f844c404d20bc7bb39ba1d9a70ab4c82be92b6003360",
+      "label": "urban",
+      "split": "validation"
+    },
+    {
+      "path": "urban/eurosat_residential_Residential_255.jpg",
+      "sha256": "5b2ea8dbc325b870d9d88dc00a8b2557a3a27a7c80d0f51cd4250a879d69229c",
+      "label": "urban",
+      "split": "train"
+    },
+    {
+      "path": "urban/eurosat_residential_Residential_2638.jpg",
+      "sha256": "c8788e06faf0dcf880c97b17d09411d31842438cae339e18bf9c3fba0183d4db",
+      "label": "urban",
+      "split": "train"
+    },
+    {
+      "path": "urban/eurosat_residential_Residential_282.jpg",
+      "sha256": "985a92317ab9329db016fc8370154e6eaf56bd161aa52a25ee83934c5e516722",
+      "label": "urban",
+      "split": "train"
+    },
+    {
+      "path": "urban/eurosat_residential_Residential_2854.jpg",
+      "sha256": "16c90aef2c5eb897528147b32b9183d46c794c72784c37337c2a38bef64a2682",
+      "label": "urban",
+      "split": "test"
+    },
+    {
+      "path": "urban/eurosat_residential_Residential_2918.jpg",
+      "sha256": "469f84e834de22592efaa2c0e47efe57a04be7a63e88ca10a7180d9a3786a8a5",
+      "label": "urban",
+      "split": "train"
+    },
+    {
+      "path": "urban/eurosat_residential_Residential_2998.jpg",
+      "sha256": "3d57d943d65bcdec61be2161c24e3b909b477e05d8fd24b21dc0350f90025d5a",
+      "label": "urban",
+      "split": "train"
+    },
+    {
+      "path": "urban/eurosat_residential_Residential_480.jpg",
+      "sha256": "4c1a7346cd20157f7cef698302b841311025062740720f7bc335017042d5cb47",
+      "label": "urban",
+      "split": "train"
+    },
+    {
+      "path": "urban/eurosat_residential_Residential_664.jpg",
+      "sha256": "b31eee44ade6b22fffd7366845c8509a66ecd93537d64cf8b950dea80adc5c07",
+      "label": "urban",
+      "split": "train"
+    },
+    {
+      "path": "urban/eurosat_residential_Residential_70.jpg",
+      "sha256": "b0d07fa00322a42316558e994baddc68667e9df5b2fa8c077fa098c1084c1c4c",
+      "label": "urban",
+      "split": "train"
+    },
+    {
+      "path": "urban/eurosat_residential_Residential_803.jpg",
+      "sha256": "e937f2394cabcb1c06ede8768fcc246e988c22f8cac2d231ff6934967d26148d",
+      "label": "urban",
+      "split": "test"
+    },
+    {
+      "path": "urban/eurosat_residential_Residential_807.jpg",
+      "sha256": "92c51d5a7e2e86f9f4c1a7d2a85ef77946b1f9a6e3cd94f3b1e50e0b4562d845",
+      "label": "urban",
+      "split": "validation"
+    },
+    {
+      "path": "urban/eurosat_residential_Residential_928.jpg",
+      "sha256": "ecb21c2fd0f4b801b81fde18aef073c1b99a2fac32a894d51e60a4ae7c9ccea4",
+      "label": "urban",
+      "split": "train"
+    },
+    {
+      "path": "urban/eurosat_residential_Residential_934.jpg",
+      "sha256": "f4cf4578821fc54cf80ddc9c50974a0cf7f6847032316969dc2c38f39943c40a",
+      "label": "urban",
+      "split": "train"
+    },
+    {
+      "path": "urban/eurosat_residential_Residential_964.jpg",
+      "sha256": "f83b20a91a44294c1b9e75418a6b45f6326825e9af2ab683ee6c432c631b47c7",
+      "label": "urban",
+      "split": "train"
+    },
+    {
+      "path": "water/eurosat_river_River_1052.jpg",
+      "sha256": "d573e817a16028a00fd2bdc755bf9588917be144481f315ff2193c92b6a73550",
+      "label": "water",
+      "split": "train"
+    },
+    {
+      "path": "water/eurosat_river_River_1179.jpg",
+      "sha256": "677c20041c9f7f7d0a274ad381e644ae00ce9507f866a492abe3e005c9e45320",
+      "label": "water",
+      "split": "train"
+    },
+    {
+      "path": "water/eurosat_river_River_1331.jpg",
+      "sha256": "91d33e51f816074da0c6fb70b9b58ab85e8c3c196c5d2a9c4e8cdb1454655900",
+      "label": "water",
+      "split": "train"
+    },
+    {
+      "path": "water/eurosat_river_River_1376.jpg",
+      "sha256": "7c42ac0934d19006a7d9684977968564a873a71f1f32e64432e3550ddfca85a0",
+      "label": "water",
+      "split": "train"
+    },
+    {
+      "path": "water/eurosat_river_River_1405.jpg",
+      "sha256": "bebbf0e7e4879ae3f24e2ed97f92720290ca6b37e9bc0172448eb9f3714ab1f1",
+      "label": "water",
+      "split": "validation"
+    },
+    {
+      "path": "water/eurosat_river_River_1411.jpg",
+      "sha256": "7668fc52af7ef52238b305203b1866f3403b6e648d2cd7874a91f724ba02f0cd",
+      "label": "water",
+      "split": "train"
+    },
+    {
+      "path": "water/eurosat_river_River_1418.jpg",
+      "sha256": "3a1fe35d0fadf1fe7e7c90920f0a574850e0c87dc468a33aaffbf6c1ef91b2ba",
+      "label": "water",
+      "split": "train"
+    },
+    {
+      "path": "water/eurosat_river_River_15.jpg",
+      "sha256": "238c0f10c02aa328d46029f4b80e237141312430c4cd9412eccc4cfcca19039b",
+      "label": "water",
+      "split": "test"
+    },
+    {
+      "path": "water/eurosat_river_River_1597.jpg",
+      "sha256": "8d8b7dc77f59da1672d64e3211476d4da8594c3c1b8d5cf53b3a2532634b504a",
+      "label": "water",
+      "split": "validation"
+    },
+    {
+      "path": "water/eurosat_river_River_1601.jpg",
+      "sha256": "ba31a3679c605fe3d4803d25f4b7784cce26b1a4847f913f7ec0435289e3ba50",
+      "label": "water",
+      "split": "test"
+    },
+    {
+      "path": "water/eurosat_river_River_1632.jpg",
+      "sha256": "e4161dd9a2726afbacc346ca24d6b3a20ab14eb0c199ca446c73084b8b43c4f8",
+      "label": "water",
+      "split": "validation"
+    },
+    {
+      "path": "water/eurosat_river_River_1718.jpg",
+      "sha256": "2788d1fa2dc6fe648ac7283c93b61b78a19c408126935b4957cd53f29f75cdf1",
+      "label": "water",
+      "split": "train"
+    },
+    {
+      "path": "water/eurosat_river_River_1743.jpg",
+      "sha256": "c2f3f9fa492765244dd87e7997f605a1ec97323039ed3f6d6e1fea5723100a49",
+      "label": "water",
+      "split": "train"
+    },
+    {
+      "path": "water/eurosat_river_River_1770.jpg",
+      "sha256": "a9ccee5cfb2f85d5a410035539ffc28d688174f6b5bae90e0e675f742a243098",
+      "label": "water",
+      "split": "validation"
+    },
+    {
+      "path": "water/eurosat_river_River_1912.jpg",
+      "sha256": "abab5a81edc10b8a15080fc19824ca91fa2980a040da75938b8cb1a687aac0d9",
+      "label": "water",
+      "split": "train"
+    },
+    {
+      "path": "water/eurosat_river_River_1940.jpg",
+      "sha256": "26a144ace3f4bb9a0e850ff443bff3ce021da8ad1675ac50199688fbff04d490",
+      "label": "water",
+      "split": "train"
+    },
+    {
+      "path": "water/eurosat_river_River_1970.jpg",
+      "sha256": "985ef03a904de91bed74234d16954131264f9ffab6b98c8f7f4dfca0b5f00773",
+      "label": "water",
+      "split": "validation"
+    },
+    {
+      "path": "water/eurosat_river_River_2018.jpg",
+      "sha256": "ab41c612aa61aae42a898585c6c5e5937489945c19b8dcc2b481a74310aa1b60",
+      "label": "water",
+      "split": "test"
+    },
+    {
+      "path": "water/eurosat_river_River_2047.jpg",
+      "sha256": "c86b3c3648fdbc72f00ba41a9744b7a8cfe18d36d0bf1573ded0cc877f2277c8",
+      "label": "water",
+      "split": "train"
+    },
+    {
+      "path": "water/eurosat_river_River_2190.jpg",
+      "sha256": "feb734a4894c24a3d319b2645b4a669d41107526a967e12241675e9894cab122",
+      "label": "water",
+      "split": "train"
+    },
+    {
+      "path": "water/eurosat_river_River_2224.jpg",
+      "sha256": "c57fb1da30fc867c84189ec2fc2835bd8d3cdcedf3fdbece43f2157c29454eff",
+      "label": "water",
+      "split": "test"
+    },
+    {
+      "path": "water/eurosat_river_River_225.jpg",
+      "sha256": "3c4a9804ce0d066a0eaf68ca0b8fd17db0cd99cde4225e20f13344ad577e8828",
+      "label": "water",
+      "split": "train"
+    },
+    {
+      "path": "water/eurosat_river_River_2290.jpg",
+      "sha256": "5693532540ecfb7d4d1c4e9d7e652f8de636282eed4be720bab305d76ae27e3f",
+      "label": "water",
+      "split": "train"
+    },
+    {
+      "path": "water/eurosat_river_River_2313.jpg",
+      "sha256": "376ffde2570119de61db6f2ba86688c4e5d03cb62ceddf65f8f90a6ff4c68926",
+      "label": "water",
+      "split": "train"
+    },
+    {
+      "path": "water/eurosat_river_River_2366.jpg",
+      "sha256": "ef0c38115cd0c3b622ac4fc132966873c6a9ed49bba4a244c0bc5d80d73b006b",
+      "label": "water",
+      "split": "train"
+    },
+    {
+      "path": "water/eurosat_river_River_2428.jpg",
+      "sha256": "11dbfd5d904682f3c2a22af324d12f41c821571491d05a9b7c5929d702521f31",
+      "label": "water",
+      "split": "train"
+    },
+    {
+      "path": "water/eurosat_river_River_2494.jpg",
+      "sha256": "0f9d9d42612902da5b6c430d159b10893a462df6d731608579c21cef3899c9e1",
+      "label": "water",
+      "split": "train"
+    },
+    {
+      "path": "water/eurosat_river_River_2495.jpg",
+      "sha256": "c69750528d178abf9ed0c9c2573c92e0b3056fb8e944c7a53f0457590bc317ac",
+      "label": "water",
+      "split": "train"
+    },
+    {
+      "path": "water/eurosat_river_River_25.jpg",
+      "sha256": "08cd181c7287bdd965657c27822268060b43ab2f5b38c08cac3e2d8c3c09252f",
+      "label": "water",
+      "split": "train"
+    },
+    {
+      "path": "water/eurosat_river_River_309.jpg",
+      "sha256": "d7eae3e6bf822809ebf0be52c9d961052d249b17f4ab94c3eec9659fb5d1db29",
+      "label": "water",
+      "split": "train"
+    },
+    {
+      "path": "water/eurosat_river_River_323.jpg",
+      "sha256": "04c1594cd2f023600368e4a8f58d9ec740cfda8fc5b7a62e7749f29c19d795cd",
+      "label": "water",
+      "split": "train"
+    },
+    {
+      "path": "water/eurosat_river_River_338.jpg",
+      "sha256": "b088616fee4eee8bb1fbfb6952ff05a04104bbed3e351822be8bcf6129dda0ae",
+      "label": "water",
+      "split": "train"
+    },
+    {
+      "path": "water/eurosat_river_River_350.jpg",
+      "sha256": "02261bcb63299878f0936e5f82c64d1b00767ee5b2a8e0ab949e806317ef9e84",
+      "label": "water",
+      "split": "train"
+    },
+    {
+      "path": "water/eurosat_river_River_357.jpg",
+      "sha256": "14aedd038652b6e7b0407bc0d33866e67a73f1c8d71c994bfafb83c0b1f0a565",
+      "label": "water",
+      "split": "test"
+    },
+    {
+      "path": "water/eurosat_river_River_418.jpg",
+      "sha256": "67a834f2dadfbfd82b11fc0791cda0c0e88f033502572c040f2581ddab65a317",
+      "label": "water",
+      "split": "validation"
+    },
+    {
+      "path": "water/eurosat_river_River_427.jpg",
+      "sha256": "68cf6e04052ff223bcd92c5b85b9d3a769fe0087d82f85611f9a684692a554d7",
+      "label": "water",
+      "split": "train"
+    },
+    {
+      "path": "water/eurosat_river_River_527.jpg",
+      "sha256": "ba3318d7bd135d7bab2a0913fad49bc4c11c730efdc4df8d53da53240715c5a7",
+      "label": "water",
+      "split": "train"
+    },
+    {
+      "path": "water/eurosat_river_River_664.jpg",
+      "sha256": "1d09edd3087e4cdd3b53899b369248702c4e1bd2cf2ee3f68599d82f3fe1d3c5",
+      "label": "water",
+      "split": "train"
+    },
+    {
+      "path": "water/eurosat_river_River_695.jpg",
+      "sha256": "0eace861584841a2a981c71bf5d7fec8d03176c9cf717994af5151b01e2263d7",
+      "label": "water",
+      "split": "train"
+    },
+    {
+      "path": "water/eurosat_river_River_7.jpg",
+      "sha256": "53fcff6f43eb278a6ab0b0ee600409b3839034cf169d08ebab91a87101b799fb",
+      "label": "water",
+      "split": "train"
+    },
+    {
+      "path": "water/eurosat_river_River_702.jpg",
+      "sha256": "de418db35ddc5463197a3a00fc042fa4980fa07579e82968f0bf3b593217c8ee",
+      "label": "water",
+      "split": "train"
+    },
+    {
+      "path": "water/eurosat_river_River_737.jpg",
+      "sha256": "aed3331c89f5e96b8ad3d55266f7ff9c4a65bdfff1dc6a7d56d285a2799d1d54",
+      "label": "water",
+      "split": "train"
+    },
+    {
+      "path": "water/eurosat_river_River_795.jpg",
+      "sha256": "844bd431720328d083ec96ca1da213c073c6633152a4f761fb413af5989869f6",
+      "label": "water",
+      "split": "validation"
+    },
+    {
+      "path": "water/eurosat_river_River_804.jpg",
+      "sha256": "fddc89a368b0182ca8c4707edbbd88fce2f893d1545c2df67ddeb1121ef7ce41",
+      "label": "water",
+      "split": "test"
+    },
+    {
+      "path": "water/eurosat_river_River_844.jpg",
+      "sha256": "10020bb479e5919a9d17cb4a8a0d99d61b624922f402238ccb2ba694ea7fd80f",
+      "label": "water",
+      "split": "train"
+    },
+    {
+      "path": "water/eurosat_river_River_848.jpg",
+      "sha256": "8928bc11454ae1d0e27fb1333e36bd31d4e2f50efb98dbccd97067ab252d6fe9",
+      "label": "water",
+      "split": "validation"
+    },
+    {
+      "path": "water/eurosat_river_River_917.jpg",
+      "sha256": "061b3464823e3143d8ab0dd9057ed0c4435277b6f804461152a65d854a4e2dc3",
+      "label": "water",
+      "split": "train"
+    },
+    {
+      "path": "water/eurosat_river_River_958.jpg",
+      "sha256": "0432447b0da7a2b50f9cf5547b2bc9b49ff664c542f25daebbbda54f5bb51a65",
+      "label": "water",
+      "split": "train"
+    },
+    {
+      "path": "water/eurosat_river_River_994.jpg",
+      "sha256": "b392d80604a08e7f564855744176e7473c5983f2bcea986475e5e76179e75611",
+      "label": "water",
+      "split": "train"
+    },
+    {
+      "path": "water/eurosat_river_River_998.jpg",
+      "sha256": "03d732d911c61d0b4943e917c302c00944c9b723c5f6251b318621b6d1b25de9",
+      "label": "water",
+      "split": "train"
+    },
+    {
+      "path": "water/eurosat_sealake_SeaLake_1049.jpg",
+      "sha256": "10f3197c9a24d4ac39ece75d9ab36c98aa7260084acf2188fd5a7dac68226cc4",
+      "label": "water",
+      "split": "train"
+    },
+    {
+      "path": "water/eurosat_sealake_SeaLake_1136.jpg",
+      "sha256": "c54777fe2e769f3e9bd5cca5ac799024d61c477f274e956080729be691cff8b0",
+      "label": "water",
+      "split": "validation"
+    },
+    {
+      "path": "water/eurosat_sealake_SeaLake_120.jpg",
+      "sha256": "ddbff722195505693e7e0714549927c430d9ecc2eed3a2672188b1066ed7a677",
+      "label": "water",
+      "split": "train"
+    },
+    {
+      "path": "water/eurosat_sealake_SeaLake_1218.jpg",
+      "sha256": "9e83458167ed1c4d4ba1991e95673f559369b4b750e0751a77935df241f57c76",
+      "label": "water",
+      "split": "train"
+    },
+    {
+      "path": "water/eurosat_sealake_SeaLake_1443.jpg",
+      "sha256": "f4793c17be2d2243f07e2c0fdd19d75b2ff82d8e5288c54e69a41fa058990954",
+      "label": "water",
+      "split": "train"
+    },
+    {
+      "path": "water/eurosat_sealake_SeaLake_1460.jpg",
+      "sha256": "8d351c42a90f0be5ee23659a468db07691cf54655f7a03d23b0219f140caf962",
+      "label": "water",
+      "split": "train"
+    },
+    {
+      "path": "water/eurosat_sealake_SeaLake_1688.jpg",
+      "sha256": "f46ee0e0bd539c9d8920364aa3b040bd1b1285d64fe31411200104a60c605d1b",
+      "label": "water",
+      "split": "train"
+    },
+    {
+      "path": "water/eurosat_sealake_SeaLake_1720.jpg",
+      "sha256": "6067e8ce53cc7f7cf0af3db6c4ec91d18fe109216855b79d470d378490555b97",
+      "label": "water",
+      "split": "train"
+    },
+    {
+      "path": "water/eurosat_sealake_SeaLake_179.jpg",
+      "sha256": "cb715833b8d0c1d8a9da0cea7b34c6ec00c617519eff008dd6d5f4a93a8d7aeb",
+      "label": "water",
+      "split": "train"
+    },
+    {
+      "path": "water/eurosat_sealake_SeaLake_191.jpg",
+      "sha256": "c51fbb7a678fa4f4a8efa6eff01bf6f424e2c88bb287fa9392ce9f6148228ea8",
+      "label": "water",
+      "split": "validation"
+    },
+    {
+      "path": "water/eurosat_sealake_SeaLake_1939.jpg",
+      "sha256": "c333be76886d3594f358c531244eb64f539a614d46ee39df5c09e206e85fdf3f",
+      "label": "water",
+      "split": "train"
+    },
+    {
+      "path": "water/eurosat_sealake_SeaLake_1945.jpg",
+      "sha256": "9b1a51edb3f73a1ee641724dd01fd41fe0c8922566b81b37b66045b53eb44c0e",
+      "label": "water",
+      "split": "train"
+    },
+    {
+      "path": "water/eurosat_sealake_SeaLake_1984.jpg",
+      "sha256": "4f63fa535d435affb35a7cf6b8a6ba42e76576f7743de2c428ee9a05a3096a0d",
+      "label": "water",
+      "split": "validation"
+    },
+    {
+      "path": "water/eurosat_sealake_SeaLake_2091.jpg",
+      "sha256": "eb46677ae8b8d51ee47eb661dd81d47883ab110a2729fc27e562202b5e29238f",
+      "label": "water",
+      "split": "train"
+    },
+    {
+      "path": "water/eurosat_sealake_SeaLake_2109.jpg",
+      "sha256": "4ea040bf725e8f6edf367bdc8adbb086908d58fd864e266b4062ffdd90644c77",
+      "label": "water",
+      "split": "train"
+    },
+    {
+      "path": "water/eurosat_sealake_SeaLake_2317.jpg",
+      "sha256": "4003228acc73921c7003165b0aab13bfc2906a5bfc7f385f26d70fd956b8fcd6",
+      "label": "water",
+      "split": "train"
+    },
+    {
+      "path": "water/eurosat_sealake_SeaLake_2339.jpg",
+      "sha256": "5e9ad3c686fc148ec6a260ba38ec6c21b04286d5ccd9b6cd38a315f920f3252e",
+      "label": "water",
+      "split": "train"
+    },
+    {
+      "path": "water/eurosat_sealake_SeaLake_235.jpg",
+      "sha256": "1036ed16bbe8f1224eca312eb74d163f0869a271da8e9cf45f5e83160dd08674",
+      "label": "water",
+      "split": "test"
+    },
+    {
+      "path": "water/eurosat_sealake_SeaLake_237.jpg",
+      "sha256": "005fde529870351b2973b56b2d242df113f155fd93663b3234d2bece14435262",
+      "label": "water",
+      "split": "train"
+    },
+    {
+      "path": "water/eurosat_sealake_SeaLake_2415.jpg",
+      "sha256": "1562342bbb99d161bc11eafe4571ab276c1409a177b0dd97c4e325cc3704a3e3",
+      "label": "water",
+      "split": "validation"
+    },
+    {
+      "path": "water/eurosat_sealake_SeaLake_2462.jpg",
+      "sha256": "6006e020ddde11690811c225df58261c8d95d87fb7e10011047187846425e791",
+      "label": "water",
+      "split": "test"
+    },
+    {
+      "path": "water/eurosat_sealake_SeaLake_2489.jpg",
+      "sha256": "223d25c5bf562c9b62c600ac70878e36b48863ffea93dad73a4a61cdfb525bb9",
+      "label": "water",
+      "split": "train"
+    },
+    {
+      "path": "water/eurosat_sealake_SeaLake_2611.jpg",
+      "sha256": "f076bb18ed4875bc0c17c435218922f63373264d08a7ca1b147747b268604b95",
+      "label": "water",
+      "split": "validation"
+    },
+    {
+      "path": "water/eurosat_sealake_SeaLake_2614.jpg",
+      "sha256": "e961d2e248776d912fa8f798534455a46f857296178d23f1c706061eb66f2ebf",
+      "label": "water",
+      "split": "train"
+    },
+    {
+      "path": "water/eurosat_sealake_SeaLake_2646.jpg",
+      "sha256": "cf736a43a34c9b4c4c2c4ddde9f22721e11d349475a56b65ab3c8be6f760109e",
+      "label": "water",
+      "split": "train"
+    },
+    {
+      "path": "water/eurosat_sealake_SeaLake_2653.jpg",
+      "sha256": "8490e649b6d0948885eb0242f193e307e75a5f2026488a38dba7d651827590db",
+      "label": "water",
+      "split": "test"
+    },
+    {
+      "path": "water/eurosat_sealake_SeaLake_266.jpg",
+      "sha256": "9de8f6350eda3baa8e9e9b3cf1dc0703e3366e3acbbdf0e43291c84999f02c6f",
+      "label": "water",
+      "split": "validation"
+    },
+    {
+      "path": "water/eurosat_sealake_SeaLake_2800.jpg",
+      "sha256": "dfe5450626cfb96b65bfa0afb962aa7c185403c289c144241f005afe3f6f1a0c",
+      "label": "water",
+      "split": "test"
+    },
+    {
+      "path": "water/eurosat_sealake_SeaLake_2809.jpg",
+      "sha256": "72be53de28ad7dfa2aa5bfd86cef0d478c0a4c20e65417480b5393437c0266e0",
+      "label": "water",
+      "split": "train"
+    },
+    {
+      "path": "water/eurosat_sealake_SeaLake_2850.jpg",
+      "sha256": "3a2035e9c862c8d47aaa15ae3554a24c970cb9c0ba2732c16ae733f87ed7174f",
+      "label": "water",
+      "split": "train"
+    },
+    {
+      "path": "water/eurosat_sealake_SeaLake_2871.jpg",
+      "sha256": "063d33ced00d0792a5e3c23a0c27371e52cd90730677d166233b363e5218b595",
+      "label": "water",
+      "split": "train"
+    },
+    {
+      "path": "water/eurosat_sealake_SeaLake_297.jpg",
+      "sha256": "fc5ac8f723d4d4951f032e343ace2c3be87f3ddef5e0d382a7644ae60bc9e306",
+      "label": "water",
+      "split": "train"
+    },
+    {
+      "path": "water/eurosat_sealake_SeaLake_2987.jpg",
+      "sha256": "1ee9ab7fcb8d224124033cd557455e9433090f98cbcbd253fb361974d35e328e",
+      "label": "water",
+      "split": "train"
+    },
+    {
+      "path": "water/eurosat_sealake_SeaLake_362.jpg",
+      "sha256": "97c4963266149c1fed756d1a4bddf3089e119e672e04b1132ddfbf0a6ab88f59",
+      "label": "water",
+      "split": "test"
+    },
+    {
+      "path": "water/eurosat_sealake_SeaLake_438.jpg",
+      "sha256": "10c314f65724fd92408a839ffad2a0b3f5e2b668356a8d364edc40b03853dcb6",
+      "label": "water",
+      "split": "train"
+    },
+    {
+      "path": "water/eurosat_sealake_SeaLake_449.jpg",
+      "sha256": "cc30b92a41d689741d817ef83e00512ed57846154ba667b990f1ff49f7b9832a",
+      "label": "water",
+      "split": "test"
+    },
+    {
+      "path": "water/eurosat_sealake_SeaLake_455.jpg",
+      "sha256": "9ca55486ddbfd6f6808f0c75915bf337cb25464aacab4dbe18f870cae9c3b21d",
+      "label": "water",
+      "split": "train"
+    },
+    {
+      "path": "water/eurosat_sealake_SeaLake_491.jpg",
+      "sha256": "90355e56ecd87d0f769a071f1a1986abb4a0ae6fc1f85460e65a7f00455636e2",
+      "label": "water",
+      "split": "train"
+    },
+    {
+      "path": "water/eurosat_sealake_SeaLake_510.jpg",
+      "sha256": "1e99c9dcea95cbb173397e2c3cfc764303df64db5e85410e6186e7ee82c1f551",
+      "label": "water",
+      "split": "test"
+    },
+    {
+      "path": "water/eurosat_sealake_SeaLake_514.jpg",
+      "sha256": "36af3d2db1ac6759a853aa0751c43df4f02c62c3d38fbc8e43f7fe74325a87d5",
+      "label": "water",
+      "split": "train"
+    },
+    {
+      "path": "water/eurosat_sealake_SeaLake_569.jpg",
+      "sha256": "b0ecdd66a3f363e7c5a7e36d12ba1c8641ad21d0ff2149ed8531ab80da0f2096",
+      "label": "water",
+      "split": "train"
+    },
+    {
+      "path": "water/eurosat_sealake_SeaLake_6.jpg",
+      "sha256": "67e39a468848f5b9241060dcd5720281ed66a87cb683eb92764e08b6a9046336",
+      "label": "water",
+      "split": "train"
+    },
+    {
+      "path": "water/eurosat_sealake_SeaLake_628.jpg",
+      "sha256": "650f5ad463144d2f779230f24e152116ab8796186a5718a42db56863c77f7981",
+      "label": "water",
+      "split": "train"
+    },
+    {
+      "path": "water/eurosat_sealake_SeaLake_633.jpg",
+      "sha256": "7b8d6a6e0e0e65523f66d4c57472b2698286d53e3813ebcb3c0e969cf3a66800",
+      "label": "water",
+      "split": "test"
+    },
+    {
+      "path": "water/eurosat_sealake_SeaLake_703.jpg",
+      "sha256": "657a9f017fb8b57dbeee10dfb357fd4b829dd214cd01fde08586d9a8ed9e2085",
+      "label": "water",
+      "split": "train"
+    },
+    {
+      "path": "water/eurosat_sealake_SeaLake_760.jpg",
+      "sha256": "6f1abdb2bf638334b59866e69edc51d888909d868dd96bb597079937ecbbabac",
+      "label": "water",
+      "split": "test"
+    },
+    {
+      "path": "water/eurosat_sealake_SeaLake_762.jpg",
+      "sha256": "fe7efedef556bf403c77a89bf8f8ea4e073f35efd3c5a93a0b6c5f8ee5a65590",
+      "label": "water",
+      "split": "train"
+    },
+    {
+      "path": "water/eurosat_sealake_SeaLake_831.jpg",
+      "sha256": "bd4d35658107ea1d70f833042f9ddbd4f5a34d594557c4f429c09a2f9497148b",
+      "label": "water",
+      "split": "validation"
+    },
+    {
+      "path": "water/eurosat_sealake_SeaLake_861.jpg",
+      "sha256": "f4022ed3d47ad917ef00d3bc5541d00e540af40fc3c6194a919e6b9ed748587b",
+      "label": "water",
+      "split": "train"
+    },
+    {
+      "path": "water/eurosat_sealake_SeaLake_975.jpg",
+      "sha256": "c7c13fe2bbb07a54eb364c78908aee265048ab26534867ae96da675951c2e1f6",
+      "label": "water",
+      "split": "train"
+    }
+  ]
+}
