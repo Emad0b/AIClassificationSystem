@@ -6,7 +6,7 @@ const MODALITIES = [
     title: "Image Classification",
     endpoint: "/predict/image",
     accept: "image/*",
-    hint: "Wildlife, satellite, or general scene images",
+    hint: "EuroSAT land-use imagery: forest, urban, or water",
   },
   {
     id: "audio",
@@ -145,6 +145,7 @@ export default function App() {
             <h2>{result.label}</h2>
             <p className="confidence">Confidence: {formatConfidence(result.confidence)}</p>
             <p className="meta">Modality: {result.modality}</p>
+            <p className="meta">Model version: {result.model_version}</p>
           </section>
         ) : null}
       </main>

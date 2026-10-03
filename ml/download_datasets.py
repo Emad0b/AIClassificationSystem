@@ -57,12 +57,17 @@ def download_datasets() -> tuple[Path, Path]:
 def find_eurosat_root(raw_path: Path) -> Path:
     candidates = [
         raw_path / "EuroSAT" / "2750",
+        raw_path / "EuroSAT_RGB",
         raw_path / "2750",
         raw_path / "EuroSAT",
         raw_path,
     ]
     for candidate in candidates:
-        if candidate.exists() and any(p.is_dir() for p in candidate.iterdir()):
+        if candidate.exists() and all((candidate / name).is_dir() for name in EUROSAT_TO_LABEL):
+            return candidate
+    for forest in raw_path.rglob("Forest"):
+        candidate = forest.parent
+        if all((candidate / name).is_dir() for name in EUROSAT_TO_LABEL):
             return candidate
     raise FileNotFoundError(f"Could not locate EuroSAT class folders under {raw_path}")
 
@@ -157,6 +162,7 @@ def prepare_all(eurosat_path: Path, urbansound_path: Path) -> None:
 
 def main() -> None:
     parser = argparse.ArgumentParser(description="Download and prepare Kaggle datasets")
+    parser.add_argument("--image-only", action="store_true", help="Download and prepare only EuroSAT")
     parser.add_argument(
         "--prepare-only",
         action="store_true",
@@ -168,6 +174,10 @@ def main() -> None:
         help="Use latest cached kagglehub paths without re-downloading",
     )
     args = parser.parse_args()
+    if args.image_only:
+        from download_rgb import download_rgb
+        prepare_eurosat(download_rgb(PROJECT_ROOT / "artifacts" / "eurosat-cache"), IMAGE_OUT)
+        return
 
     if args.prepare_only or args.skip_download:
         eurosat_path = Path(kagglehub.dataset_download(EUROSAT_SLUG))

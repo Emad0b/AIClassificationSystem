@@ -1,0 +1,128 @@
+{
+  "schema_version": 1,
+  "architecture": "resnet50",
+  "model_version": "eurosat-subset-probe-v1",
+  "classes": [
+    "forest",
+    "urban",
+    "water"
+  ],
+  "preprocessing": {
+    "size": 224,
+    "mean": [
+      0.485,
+      0.456,
+      0.406
+    ],
+    "std": [
+      0.229,
+      0.224,
+      0.225
+    ]
+  },
+  "weights_sha256": "f20529759bf985064ef8cd2f867a3192b9f2afe0e8f571a63d6f694ccb7289d3",
+  "manifest_sha256": "b915797d15f595021c3201123175147fc57e070cbb992f6939aa10680cc67419",
+  "created_at": "2026-10-03T21:14:45.453026+00:00",
+  "epoch": 3,
+  "validation": {
+    "accuracy": 0.8444444444444444,
+    "macro_f1": 0.8403275587415373,
+    "per_class": {
+      "forest": {
+        "precision": 0.9375,
+        "recall": 1.0,
+        "f1": 0.967741935483871,
+        "support": 15
+      },
+      "urban": {
+        "precision": 0.7647058823529411,
+        "recall": 0.8666666666666667,
+        "f1": 0.8125,
+        "support": 15
+      },
+      "water": {
+        "precision": 0.8333333333333334,
+        "recall": 0.6666666666666666,
+        "f1": 0.7407407407407408,
+        "support": 15
+      }
+    },
+    "confusion_matrix": [
+      [
+        15,
+        0,
+        0
+      ],
+      [
+        0,
+        13,
+        2
+      ],
+      [
+        1,
+        4,
+        10
+      ]
+    ],
+    "class_order": [
+      "forest",
+      "urban",
+      "water"
+    ],
+    "samples": 45,
+    "prediction_distribution": [
+      0.35555555555555557,
+      0.37777777777777777,
+      0.26666666666666666
+    ],
+    "highest_confidence_errors": [
+      {
+        "path": "water/eurosat_river_River_1597.jpg",
+        "actual": "water",
+        "predicted": "urban",
+        "confidence": 0.6135657429695129
+      },
+      {
+        "path": "water/eurosat_river_River_848.jpg",
+        "actual": "water",
+        "predicted": "urban",
+        "confidence": 0.6128498315811157
+      },
+      {
+        "path": "water/eurosat_river_River_1632.jpg",
+        "actual": "water",
+        "predicted": "urban",
+        "confidence": 0.5977645516395569
+      },
+      {
+        "path": "water/eurosat_river_River_1770.jpg",
+        "actual": "water",
+        "predicted": "forest",
+        "confidence": 0.5792331099510193
+      },
+      {
+        "path": "water/eurosat_river_River_1970.jpg",
+        "actual": "water",
+        "predicted": "urban",
+        "confidence": 0.5672486424446106
+      },
+      {
+        "path": "urban/eurosat_highway_Highway_1270.jpg",
+        "actual": "urban",
+        "predicted": "water",
+        "confidence": 0.5636274814605713
+      },
+      {
+        "path": "urban/eurosat_highway_Highway_632.jpg",
+        "actual": "urban",
+        "predicted": "water",
+        "confidence": 0.5218154788017273
+      }
+    ]
+  },
+  "reference_prediction_distribution": [
+    0.35555555555555557,
+    0.37777777777777777,
+    0.26666666666666666
+  ]
+}

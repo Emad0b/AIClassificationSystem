@@ -17,9 +17,15 @@ jobs:
         with:
           python-version: "3.11"
       - name: Install dependencies
-        run: pip install -r requirements.txt
+        run: |
+          pip install torch torchvision --index-url https://download.pytorch.org/whl/cpu
+          pip install -r requirements.txt
       - name: Import app
         run: python -c "import app; print(app.app.title)"
+      - name: Install test dependencies
+        run: pip install pytest httpx
+      - name: Test data integrity and API contracts
+        run: python -m pytest ../tests -q
 
   frontend-build:
     runs-on: ubuntu-latest
@@ -31,7 +37,7 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: "20"
-      - run: npm install
+      - run: npm ci
       - run: npm run build
 
   docker-build:

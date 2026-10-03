@@ -1,0 +1,19 @@
+{
+  "arguments": {
+    "data_dir": "ml\\data\\image",
+    "manifest": "ml\\data\\image-subset-split.json",
+    "run_dir": "artifacts\\eurosat-subset-finetune-v1",
+    "epochs": 3,
+    "batch_size": 16,
+    "lr": 0.0001,
+    "seed": 42,
+    "threads": 4,
+    "mode": "fine-tune",
+    "no_pretrained": false
+  },
+  "torch": "2.14.1+cpu",
+  "torchvision": "0.29.1+cpu",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "device": "cpu",
+  "manifest_sha256": "b915797d15f595021c3201123175147fc57e070cbb992f6939aa10680cc67419"
+}

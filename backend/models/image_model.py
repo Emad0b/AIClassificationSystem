@@ -13,13 +13,12 @@ def build_image_model(num_classes: int, pretrained: bool = True) -> nn.Module:
     return model
 
 
-def load_image_model(model_path: Path, num_classes: int, device: torch.device) -> nn.Module:
+def load_image_model(model_path: Path, num_classes: int, device: torch.device) -> nn.Module | None:
+    if not model_path.exists():
+        return None
     model = build_image_model(num_classes=num_classes, pretrained=False)
-    if model_path.exists():
-        state_dict = torch.load(model_path, map_location=device, weights_only=True)
-        model.load_state_dict(state_dict)
-    else:
-        model = build_image_model(num_classes=num_classes, pretrained=True)
+    state_dict = torch.load(model_path, map_location=device, weights_only=True)
+    model.load_state_dict(state_dict)
     model.to(device)
     model.eval()
     return model

@@ -1,4 +1,6 @@
 import io
+import json
+from pathlib import Path
 from dataclasses import dataclass
 
 import librosa
@@ -11,12 +13,14 @@ from torchvision import transforms
 from config import settings
 from models.audio_model import load_audio_model
 from models.image_model import load_image_model
+from ml_contract import PREPROCESSING, load_metadata
 
 
 @dataclass
 class InferenceResult:
     label: str
     confidence: float
+    model_version: str = "legacy-audio"
 
 
 class ModelRegistry:
@@ -24,23 +28,34 @@ class ModelRegistry:
         self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
         self.image_model = None
         self.audio_model = None
+        self.image_metadata = None
         self._image_transform = transforms.Compose(
             [
-                transforms.Resize((224, 224)),
+                transforms.Resize((PREPROCESSING["size"], PREPROCESSING["size"])),
                 transforms.ToTensor(),
                 transforms.Normalize(
-                    mean=[0.485, 0.456, 0.406],
-                    std=[0.229, 0.224, 0.225],
+                    mean=PREPROCESSING["mean"],
+                    std=PREPROCESSING["std"],
                 ),
             ]
         )
 
     def load(self) -> None:
-        self.image_model = load_image_model(
-            settings.image_model_path,
-            num_classes=len(settings.image_labels),
-            device=self.device,
-        )
+        self.image_model = None
+        self.image_metadata = None
+        image_path = settings.image_model_path
+        if settings.model_registry_path:
+            active = json.loads(settings.model_registry_path.read_text(encoding="utf-8"))
+            image_path = Path(active["active_weights"])
+            if not image_path.exists():
+                raise FileNotFoundError("Active model artifact is missing")
+        if image_path.exists():
+            self.image_metadata = load_metadata(image_path)
+            self.image_model = load_image_model(
+                image_path,
+                num_classes=len(self.image_metadata["classes"]),
+                device=self.device,
+            )
         self.audio_model = load_audio_model(
             settings.audio_model_path,
             num_classes=len(settings.audio_labels),
@@ -67,8 +82,8 @@ class ModelRegistry:
             probabilities = F.softmax(logits, dim=1)[0]
 
         confidence, index = torch.max(probabilities, dim=0)
-        label = settings.image_labels[int(index)]
-        return InferenceResult(label=label, confidence=float(confidence))
+        label = self.image_metadata["classes"][int(index)]
+        return InferenceResult(label=label, confidence=float(confidence), model_version=self.image_metadata["model_version"])
 
     def predict_audio(self, audio_bytes: bytes, filename: str = "upload.wav") -> InferenceResult:
         if not self.audio_model:
